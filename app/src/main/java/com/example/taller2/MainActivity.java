@@ -1,12 +1,10 @@
 package com.example.taller2;
 
-import androidx.appcompat.app.AppCompatActivity;
-
 import android.os.Bundle;
-import android.view.Menu;
-import android.view.MenuInflater;
 
-public class MainActivity extends AppCompatActivity {
+import com.example.taller2.menus.GlobalMenu;
+
+public class MainActivity extends GlobalMenu {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -14,10 +12,4 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
     }
 
-    @Override
-    public boolean onCreateOptionsMenu(Menu menu) {
-        MenuInflater inflater = getMenuInflater();
-        inflater.inflate(R.menu.global_menu, menu);
-        return true;
-    }
 }
