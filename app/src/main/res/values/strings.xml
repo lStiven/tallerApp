@@ -2,4 +2,7 @@
     <string name="app_name">Taller 2</string>
     <!-- TODO: Remove or change this placeholder text -->
     <string name="fragment_help_text">Bienvenidos</string>
+    <string name="login">Inicio de sesión</string>
+    <string name="opciones">Opciones</string>
+    <string name="ajustes">Ajustes</string>
 </resources>
