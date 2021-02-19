@@ -1,7 +1,8 @@
-package com.example.taller2;
+package com.example.taller2.activity;
 
 import android.os.Bundle;
 
+import com.example.taller2.R;
 import com.example.taller2.menus.GlobalMenu;
 
 public class MainActivity extends GlobalMenu {
